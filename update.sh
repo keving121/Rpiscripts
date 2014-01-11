@@ -1,7 +1,7 @@
 echo Starting Update And Upgrade...
-sudo update
+sudo apt-get update
 echo Finished Update
 echo Starting Upgrade
-sudo upgrade
+sudo apt-get upgrade
 echo Finished Updating...Will Now Reboot
 sudo reboot
